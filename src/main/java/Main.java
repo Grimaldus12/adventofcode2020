@@ -1,6 +1,7 @@
 import day1.DayOne;
 import day2.DayTwo;
 import day3.DayThree;
+import day4.DayFour;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,9 @@ public class Main {
         DayThree dayThree = new DayThree("src/main/resources/daythree.txt");
         System.out.println("Day Three a): " + dayThree.findFlightRouteThreeOne());
         System.out.println("Day Three b): " + dayThree.checkMultipleFlightRoutes(dayThreeScenarios()));
+
+        DayFour dayFour = new DayFour("src/main/resources/dayfour.txt");
+        System.out.println("Day Four a): " + dayFour.validatePasswords());
     }
 
 
