@@ -2,6 +2,7 @@ import day1.DayOne;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
+import day5.DayFive;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,11 @@ public class Main {
         System.out.println("Day Three b): " + dayThree.checkMultipleFlightRoutes(dayThreeScenarios()));
 
         DayFour dayFour = new DayFour("src/main/resources/dayfour.txt");
-        System.out.println("Day Four a): " + dayFour.validatePasswords());
+        System.out.println("Day Four a): " + dayFour.validatePasswordsOldRule());
+        System.out.println("Day Four b): " + dayFour.validatePasswordsNewRule());
+
+        DayFive dayFive = new DayFive("src/main/resources/dayfive.txt");
+        System.out.println("Day Five a): " + dayFive.findHighestSeatId());
     }
 
 

@@ -23,15 +23,20 @@ public class DayFour {
         requiredKeys.add("pid");
     }
 
-    public int validatePasswords() {
+    public int validatePasswordsOldRule() {
         int countValidPasswords = 0;
-        //for(String s : passwords) {
-        //    if (s.contains("cid") && s.split(" ").length == 8) {
-        //        countValidPasswords++;
-        //    } else if (!s.contains("cid") && s.split(" ").length == 7) {
-        //        countValidPasswords++;
-        //    }
-        //}
+        for(String s : passwords) {
+            if (s.contains("cid") && s.split(" ").length == 8) {
+                countValidPasswords++;
+            } else if (!s.contains("cid") && s.split(" ").length == 7) {
+                countValidPasswords++;
+            }
+        }
+        return countValidPasswords;
+    }
+
+    public int validatePasswordsNewRule() {
+        int countValidPasswords = 0;
         for(String s : passwords) {
             Map<String, String> fields = new HashMap<>();
             for (String k : s.split(" ")) {
