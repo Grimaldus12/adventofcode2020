@@ -27,6 +27,7 @@ public class Main {
 
         DayFive dayFive = new DayFive("src/main/resources/dayfive.txt");
         System.out.println("Day Five a): " + dayFive.findHighestSeatId());
+        System.out.println("Day Five b): " + dayFive.findPersonalSeat());
     }
 
 
