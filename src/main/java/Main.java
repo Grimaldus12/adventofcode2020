@@ -3,6 +3,7 @@ import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
 import day5.DayFive;
+import day6.DaySix;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +29,10 @@ public class Main {
         DayFive dayFive = new DayFive("src/main/resources/dayfive.txt");
         System.out.println("Day Five a): " + dayFive.findHighestSeatId());
         System.out.println("Day Five b): " + dayFive.findPersonalSeat());
+
+        DaySix daySix = new DaySix("src/main/resources/daysix.txt");
+        System.out.println("Day Six a): " + daySix.findTotalYesAnswer());
+        System.out.println("Day Six b): " + daySix.findTotalYesAnswersNewRule());
     }
 
 
