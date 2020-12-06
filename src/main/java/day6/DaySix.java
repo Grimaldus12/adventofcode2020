@@ -42,8 +42,8 @@ public class DaySix {
         }
 
         int everyoneYes = 0;
-        for (char key : countAnswerFrequency.keySet()) {
-            if (countAnswerFrequency.get(key) == numberOfPeople) everyoneYes++;
+        for (int value : countAnswerFrequency.values()) {
+            if (value == numberOfPeople) everyoneYes++;
         }
         return everyoneYes;
     }
