@@ -4,6 +4,7 @@ import day3.DayThree;
 import day4.DayFour;
 import day5.DayFive;
 import day6.DaySix;
+import day7.DaySeven;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +34,10 @@ public class Main {
         DaySix daySix = new DaySix("src/main/resources/daysix.txt");
         System.out.println("Day Six a): " + daySix.findTotalYesAnswer());
         System.out.println("Day Six b): " + daySix.findTotalYesAnswersNewRule());
+
+        DaySeven daySeven = new DaySeven("src/main/resources/dayseven.txt");
+        System.out.println("Day Seven a): " + daySeven.findBagsColourAmount());
+        System.out.println("Day Seven b): " + daySeven.findInsideBagsColourAmount());
     }
 
 
