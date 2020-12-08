@@ -5,6 +5,7 @@ import day4.DayFour;
 import day5.DayFive;
 import day6.DaySix;
 import day7.DaySeven;
+import day8.DayEight;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +39,10 @@ public class Main {
         DaySeven daySeven = new DaySeven("src/main/resources/dayseven.txt");
         System.out.println("Day Seven a): " + daySeven.findBagsColourAmount());
         System.out.println("Day Seven b): " + daySeven.findInsideBagsColourAmount());
+
+        DayEight dayEight = new DayEight("src/main/resources/dayeight.txt");
+        System.out.println("Day Eight a): " + dayEight.findInfiniteLoop());
+        System.out.println("Day Eight b): " + dayEight.findTermination());
     }
 
 
