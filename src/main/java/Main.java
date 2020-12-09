@@ -6,6 +6,7 @@ import day5.DayFive;
 import day6.DaySix;
 import day7.DaySeven;
 import day8.DayEight;
+import day9.DayNine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +44,10 @@ public class Main {
         DayEight dayEight = new DayEight("src/main/resources/dayeight.txt");
         System.out.println("Day Eight a): " + dayEight.findInfiniteLoop());
         System.out.println("Day Eight b): " + dayEight.findTermination());
+
+        DayNine dayNine = new DayNine("src/main/resources/daynine.txt");
+        System.out.println("Day Nine a): " + dayNine.findNonMatchingValue());
+        System.out.println("Day Nine b): " + dayNine.findAddingSequence());
     }
 
 
