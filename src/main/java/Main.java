@@ -1,4 +1,5 @@
 import day1.DayOne;
+import day10.DayTen;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -48,6 +49,10 @@ public class Main {
         DayNine dayNine = new DayNine("src/main/resources/daynine.txt");
         System.out.println("Day Nine a): " + dayNine.findNonMatchingValue());
         System.out.println("Day Nine b): " + dayNine.findAddingSequence());
+
+        DayTen dayTen = new DayTen("src/main/resources/dayten.txt");
+        System.out.println("Day Ten a): " + dayTen.findJoltChain());
+        System.out.println("Day Ten b): " + dayTen.totalJoltChains());
     }
 
 
