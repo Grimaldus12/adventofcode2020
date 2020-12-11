@@ -1,5 +1,6 @@
 import day1.DayOne;
 import day10.DayTen;
+import day11.DayEleven;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -53,6 +54,10 @@ public class Main {
         DayTen dayTen = new DayTen("src/main/resources/dayten.txt");
         System.out.println("Day Ten a): " + dayTen.findJoltChain());
         System.out.println("Day Ten b): " + dayTen.totalJoltChains());
+
+        DayEleven dayEleven = new DayEleven("src/main/resources/dayeleven.txt");
+        System.out.println("Day Eleven a): " + dayEleven.findStableSeatSet());
+        System.out.println("Day Eleven b): " + dayEleven.findStableSeatSetNewRule(5));
     }
 
 
