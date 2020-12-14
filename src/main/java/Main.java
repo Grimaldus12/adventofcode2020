@@ -1,6 +1,7 @@
 import day1.DayOne;
 import day10.DayTen;
 import day11.DayEleven;
+import day12.DayTwelve;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -58,6 +59,11 @@ public class Main {
         DayEleven dayEleven = new DayEleven("src/main/resources/dayeleven.txt");
         System.out.println("Day Eleven a): " + dayEleven.findStableSeatSet());
         System.out.println("Day Eleven b): " + dayEleven.findStableSeatSetNewRule(5));
+
+        DayTwelve dayTwelve = new DayTwelve("src/main/resources/daytwelve.txt");
+        System.out.println("Day Twelve a): " + dayTwelve.findCourse());
+        System.out.println("Day Twelve b): " + dayTwelve.findCourseNewRule());
+
     }
 
 
