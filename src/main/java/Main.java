@@ -2,6 +2,7 @@ import day1.DayOne;
 import day10.DayTen;
 import day11.DayEleven;
 import day12.DayTwelve;
+import day13.DayThirteen;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -63,6 +64,10 @@ public class Main {
         DayTwelve dayTwelve = new DayTwelve("src/main/resources/daytwelve.txt");
         System.out.println("Day Twelve a): " + dayTwelve.findCourse());
         System.out.println("Day Twelve b): " + dayTwelve.findCourseNewRule());
+
+        DayThirteen dayThirteen = new DayThirteen("src/main/resources/daythirteen.txt");
+        System.out.println("Day Thirteen a): " + dayThirteen.findEarliestBus());
+        System.out.println("Day Thirteen a): " + dayThirteen.findEarliestTimestamp());
 
     }
 
