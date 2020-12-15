@@ -4,6 +4,7 @@ import day11.DayEleven;
 import day12.DayTwelve;
 import day13.DayThirteen;
 import day14.DayFourteen;
+import day15.DayFifteen;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -73,6 +74,9 @@ public class Main {
         DayFourteen dayFourteen = new DayFourteen("src/main/resources/dayfourteen.txt");
         System.out.println("Day Fourteen a): " + dayFourteen.sumOfMemory());
         System.out.println("Day Fourteen b): " + dayFourteen.decoder2());
+
+        DayFifteen dayFifteen = new DayFifteen("src/main/resources/dayfifteen.txt");
+        System.out.println("Day Fifteen a): " + dayFifteen.find2020(30000000));
     }
 
 
