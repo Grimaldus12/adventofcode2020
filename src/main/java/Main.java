@@ -3,6 +3,7 @@ import day10.DayTen;
 import day11.DayEleven;
 import day12.DayTwelve;
 import day13.DayThirteen;
+import day14.DayFourteen;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -67,8 +68,11 @@ public class Main {
 
         DayThirteen dayThirteen = new DayThirteen("src/main/resources/daythirteen.txt");
         System.out.println("Day Thirteen a): " + dayThirteen.findEarliestBus());
-        System.out.println("Day Thirteen a): " + dayThirteen.findEarliestTimestamp());
+        System.out.println("Day Thirteen b): " + dayThirteen.findEarliestTimestamp());
 
+        DayFourteen dayFourteen = new DayFourteen("src/main/resources/dayfourteen.txt");
+        System.out.println("Day Fourteen a): " + dayFourteen.sumOfMemory());
+        System.out.println("Day Fourteen b): " + dayFourteen.decoder2());
     }
 
 
