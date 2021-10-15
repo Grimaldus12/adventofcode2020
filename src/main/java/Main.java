@@ -6,6 +6,7 @@ import day13.DayThirteen;
 import day14.DayFourteen;
 import day15.DayFifteen;
 import day16.DaySixteen;
+import day17.DaySeventeen;
 import day2.DayTwo;
 import day3.DayThree;
 import day4.DayFour;
@@ -82,6 +83,10 @@ public class Main {
         DaySixteen ds = new DaySixteen("src/main/resources/daysixteen.txt");
         System.out.println("Day Sixteen a): " + ds.scanTickets());
         System.out.println("Day Sixteen b): " + ds.assignParameters());
+
+        DaySeventeen daySeventeen = new DaySeventeen("src/main/resources/dayseventeen.txt");
+        System.out.println("Day Seventeen a): " + daySeventeen.playCycles3D());
+        System.out.println("Day Seventeen a): " + daySeventeen.playCycles4D());
     }
 
 
